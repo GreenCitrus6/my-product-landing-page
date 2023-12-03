@@ -18,28 +18,70 @@
         </div>
 
         <nav id="nav-bar">
-            <a id="nav-link">Our Product</a>
-            <a id="nav-link">Our Story</a>
-            <a id="nav-link">Buy</a>
+            <a id="nav-link" href="#our-products">Our Products</a>
+            <a id="nav-link" href="#our-story">Our Story</a>
+            <a id="nav-link" href="#pricing">Pricing</a>
         </nav>
     </header>
-    <div class="video-container">
-
-    </div>
     <main>
-        <section id="our-product">
-
+        <section id="buy-section">
+            <h3>Get updates on our products</h3>
+            <p>Subscribe to our newsletter</p>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input id="email" type="email" placeholder="Enter your email address"/>
+                <input id="submit" type="submit" value="Subscribe" />
+            </form>
+        </section>
+        <section id="our-products">
+            <h2>Our Products</h2>
+            <div class="video-container">
+                <iframe id="video" src="https://www.youtube.com/embed/OTVL3FIAf_0?si=4DHaJhvA6l4ki0OQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
         </section>
         <section id="our-story">
-
+            <h2>Our Story</h2>
+            <p>We are a family owned company who Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
         </section>
-        <section id="buy-section">
-
+        <section id="pricing">
+            <h2>Pricing</h2>
+            <div class="pricing-card-container">
+                <div class="price-container">
+                    <div class="product-info-container">
+                        <h3>Budget Watch</h3>
+                        <h4>$2.00</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="buy-button-container">
+                        <button>Buy</button>
+                    </div>
+                </div>
+                <div class="pricing-card-container">
+                    <div class="price-container">
+                        <div class="product-info-container">
+                            <h3>Medium Watch</h3>
+                            <h4>$5</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="buy-button-container">
+                            <button>Buy</button>
+                        </div>
+                    </div>
+                    <div class="pricing-card-container">
+                        <div class="price-container">
+                            <div class="product-info-container">
+                                <h3>Quality Watch</h3>
+                                <h4>$99999</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                            <div class="buy-button-container">
+                                <button>Buy</button>
+                            </div>
+                        </div>
+            </div>
         </section>
     </main>
-    <form id="form">
-        <input id="email" type="email" placeholder="Enter an Email Address"/>
-        <input id="submit" />
-    </form>
+    <footer>
+
+    </footer>
 </body>
 </html>
